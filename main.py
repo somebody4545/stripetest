@@ -66,6 +66,9 @@ def normal_edition():
             line_items=[{
             'price_data': {
                 'currency': currency,
+                # 'product': 'prod_exampleid123',
+
+                #delete the product_data index if using product id
                 'product_data': {
                     'name': '1 Time File',
                     "description": "preview of the true power you can get by paying for our subscription",
